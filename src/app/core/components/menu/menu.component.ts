@@ -9,10 +9,13 @@ export class MenuComponent implements OnInit {
 
   menu = [
     {
-      title: 'Home', icon: 'bi bi-house-door-fill', url: 'home'
+      title: 'Home', icon: 'bi bi-house-door-fill', url: 'exemplos/home'
     },
     {
-      title: 'Produtos', icon: 'bi bi-cart-fill', url: 'produtos'
+      title: 'Data Table', icon: 'bi bi-table', url: 'exemplos/datatable'
+    },
+    {
+      title: 'Dialogs', icon: 'bi bi-chat-left-fill', url: 'exemplos/dialogs'
     }
   ]
 

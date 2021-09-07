@@ -8,8 +8,8 @@ import { EventEmitterComponent } from './event-emitter/event-emitter.component'
 import { FormularioComponent } from './formulario/formulario.component'
 
 const routes: Routes = [
-  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-  { path: 'dashboard', component: DashboardComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: DashboardComponent },
   { path: 'dialogs', component: DialogsComponent },
   { path: 'autocomplete', component: AutocompleteComponent },
   { path: 'event-emitter', component: EventEmitterComponent },
