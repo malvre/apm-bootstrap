@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
 import { CoreModule } from './core/core.module'
 
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader'
+
 
 
 @NgModule({
@@ -15,7 +17,8 @@ import { CoreModule } from './core/core.module'
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    CoreModule
+    CoreModule,
+    NgxSkeletonLoaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

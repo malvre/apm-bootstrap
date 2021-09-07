@@ -11,6 +11,9 @@ import { EventEmitterComponent } from './event-emitter/event-emitter.component'
 import { FormularioComponent } from './formulario/formulario.component'
 import { FormsModule } from '@angular/forms'
 
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader'
+
+
 
 @NgModule({
   declarations: [
@@ -26,6 +29,7 @@ import { FormsModule } from '@angular/forms'
     FormsModule,
     CoreModule,
     ExemplosRoutingModule,
+    NgxSkeletonLoaderModule
   ]
 })
 export class ExemplosModule { }
