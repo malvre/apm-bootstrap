@@ -12,6 +12,7 @@ import { FormularioComponent } from './formulario/formulario.component'
 import { FormsModule } from '@angular/forms'
 
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader'
+import { SharedModule } from 'src/app/shared/shared.module'
 
 
 
@@ -29,7 +30,8 @@ import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader'
     FormsModule,
     CoreModule,
     ExemplosRoutingModule,
-    NgxSkeletonLoaderModule
+    NgxSkeletonLoaderModule,
+    SharedModule
   ]
 })
 export class ExemplosModule { }
